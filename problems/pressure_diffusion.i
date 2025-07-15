@@ -30,7 +30,7 @@
 
 [Kernels]
   [diffusion]
-    type = ADDiffusion # Laplacian operator
+    type = DarcyPressure
     variable = pressure # Operate on the "pressure" variable from above
   []
 []
